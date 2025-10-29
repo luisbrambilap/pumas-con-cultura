@@ -276,12 +276,6 @@ export default async function AdminActivityDetailsPage({ params }: ActivityDetai
             >
               Escanear QR de Estudiantes
             </Link>
-            <Link
-              href="/dashboard/admin/validar"
-              className="bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-700 transition font-medium"
-            >
-              Validar Participaciones
-            </Link>
           </div>
         </div>
 

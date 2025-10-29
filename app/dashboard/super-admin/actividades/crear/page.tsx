@@ -137,7 +137,7 @@ export default function CrearActividad() {
                 required
                 value={formData.nombre}
                 onChange={handleChange}
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#003366] focus:border-transparent"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#003366] focus:border-transparent text-black"
                 placeholder="Ej: Taller de Lectura"
                 disabled={loading}
               />
@@ -155,7 +155,7 @@ export default function CrearActividad() {
                 value={formData.descripcion}
                 onChange={handleChange}
                 rows={4}
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#003366] focus:border-transparent"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#003366] focus:border-transparent text-black"
                 placeholder="Describe la actividad..."
                 disabled={loading}
               />
@@ -175,7 +175,7 @@ export default function CrearActividad() {
                 max="100"
                 value={formData.puntaje}
                 onChange={handleChange}
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#003366] focus:border-transparent"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#003366] focus:border-transparent text-black"
                 disabled={loading}
               />
               <p className="text-sm text-gray-500 mt-1">
@@ -196,7 +196,7 @@ export default function CrearActividad() {
                   required
                   value={formData.fecha_inicio}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#003366] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#003366] focus:border-transparent text-black"
                   disabled={loading}
                 />
               </div>
@@ -212,7 +212,7 @@ export default function CrearActividad() {
                   required
                   value={formData.fecha_fin}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#003366] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#003366] focus:border-transparent text-black"
                   disabled={loading}
                 />
               </div>
@@ -229,7 +229,7 @@ export default function CrearActividad() {
                 required
                 value={formData.responsable_id}
                 onChange={handleChange}
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#003366] focus:border-transparent"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#003366] focus:border-transparent text-black"
                 disabled={loading}
               >
                 <option value="">Selecciona un responsable</option>
