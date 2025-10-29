@@ -90,7 +90,6 @@ export default function CrearActividad() {
         throw insertError;
       }
 
-      alert('Actividad creada exitosamente');
       router.push('/dashboard/super-admin');
       router.refresh();
     } catch (err: any) {

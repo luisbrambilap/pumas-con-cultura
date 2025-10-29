@@ -85,7 +85,6 @@ export default function Register() {
       if (insertError) throw insertError;
 
       // Redirigir al login
-      alert('¡Cuenta creada exitosamente! Ahora inicia sesión.');
       router.push('/auth/login');
     } catch (err: any) {
       setError(err.message || 'Error al registrarse');

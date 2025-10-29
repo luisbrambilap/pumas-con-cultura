@@ -108,7 +108,6 @@ export default function RegisterEstudiante() {
       console.log('Registro completado, redirigiendo al login...');
 
       // Redirigir al login para que inicie sesión manualmente
-      alert('¡Cuenta creada exitosamente! Ahora inicia sesión con tus credenciales.');
       router.push('/auth/login/estudiante');
       router.refresh();
     } catch (err: any) {
