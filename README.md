@@ -1,8 +1,8 @@
-# 🐱 Pumas con Cultura
+#  Pumas con Cultura
 
 Sistema de gestión de actividades culturales para preparatoria.
 
-## 🚀 Características
+##  Características
 
 - **Sistema de autenticación separado** para estudiantes y personal
 - **3 tipos de roles**: Estudiantes, Administradores (Responsables) y Super Administradores
@@ -12,13 +12,13 @@ Sistema de gestión de actividades culturales para preparatoria.
 - **Validación de participaciones**: Los responsables pueden validar participaciones escaneando QR o manualmente
 - **Dashboards personalizados** para cada tipo de usuario
 
-## 📋 Requisitos
+##  Requisitos
 
 - Node.js 18+ 
 - Cuenta de Supabase
 - Cuenta de Vercel (para deployment)
 
-## 🛠️ Instalación
+##  Instalación
 
 1. Clonar el repositorio:
 ```bash
@@ -46,7 +46,7 @@ npm run dev
 
 La aplicación estará disponible en `http://localhost:3000`
 
-## 📚 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 pumas-con-cultura/
@@ -71,7 +71,7 @@ pumas-con-cultura/
 └── middleware.ts               # Middleware global
 ```
 
-## 👥 Roles y Permisos
+##  Roles y Permisos
 
 ### Estudiantes (alumno)
 - Ver actividades disponibles
@@ -95,7 +95,7 @@ pumas-con-cultura/
 - Gestionar usuarios
 - Acceso a reportes y estadísticas globales
 
-## 🔐 Autenticación
+##  Autenticación
 
 El sistema utiliza Supabase Auth con logins separados:
 
@@ -104,7 +104,7 @@ El sistema utiliza Supabase Auth con logins separados:
 
 El middleware verifica el rol del usuario y redirige al dashboard correspondiente.
 
-## 📊 Base de Datos
+##  Base de Datos
 
 El esquema de la base de datos incluye las siguientes tablas principales:
 
@@ -115,7 +115,7 @@ El esquema de la base de datos incluye las siguientes tablas principales:
 - `ranking`: Clasificación de estudiantes por puntos
 - `logs_escaneo`: Registro de todos los escaneos de QR
 
-## 🚢 Deployment en Vercel
+##  Deployment en Vercel
 
 1. Push del código a GitHub:
 ```bash
@@ -133,7 +133,7 @@ git push -u origin main
    - Configurar las variables de entorno
    - Hacer deploy
 
-## 📱 Uso del Sistema
+##  Uso del Sistema
 
 ### Para Estudiantes
 1. Registrarse con matrícula y datos personales
@@ -157,10 +157,10 @@ git push -u origin main
 4. Monitorear el ranking general
 5. Ver reportes y estadísticas
 
-## 🤝 Contribuir
+##  Contribuir
 
 Este proyecto fue creado para la Preparatoria [Nombre]. Para contribuir o reportar problemas, contacta al equipo de desarrollo.
 
-## 📄 Licencia
+##  Licencia
 
 Este proyecto es de uso interno para [Nombre de la Institución].
